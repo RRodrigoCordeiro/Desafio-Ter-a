@@ -2,18 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/*Estilização Global*/
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+/*Fim da estilização Global*/
 :root {
   --primaria-color: #007bff;
   --segundaria-color: #000000;
   --terciaria-color: rgb(240, 245, 255);
   --quaternaria-color: #ffffff;
 }
+/*Estilização da main*/
 main {
   padding-top: 60px; 
 }
@@ -35,6 +37,8 @@ main::before{
   height: 2px;
   width: 70%;
 }
+/*Fim da estilização da main*/
+/*Estilização do h1*/
 h1{
     font-size: 30px;
     text-align: center;
@@ -53,6 +57,8 @@ h1::after {
   background-color:var(--primaria-color);
   margin-top: 4px;
 }
+/*Fim da estilização do h1*/
+/*Estilização do input*/
 input{
     padding: 15px;
     display: block; 
@@ -64,11 +70,13 @@ input{
 input:hover{
   cursor: pointer;
 }
+/*Fim da estilização do input*/
 p {
     font-size: 18px;
     text-align: center;
     margin-bottom: 20px;
 }
+/*Estlização do button*/
 button {
     display: block;
     position: relative;
@@ -85,5 +93,6 @@ button:hover{
   cursor: pointer;
   color: var(--quaternaria-color);
 }
+/*Fim da estilização do button*/
 
 

@@ -25,8 +25,6 @@ return (
     <p>DDD: {data.ddd}</p>
     <p>IBGE: {data.ibge}</p>
     <p>SIAFI: {data.siafi}</p>
-    <p>GIA: {data.gia}</p>
-    <p>Complemento: {data.complemento} </p>
   </main>
 )}
 
