@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import './globals.css'
 
 export default function Home() {
-  const [data, SetData, ] = useState("")
+  const [data, SetData] = useState("")
 
   async function getCEP() {
     fetch(`https://viacep.com.br/ws/${data}/json/`)
@@ -14,7 +14,7 @@ export default function Home() {
 
 return (
 
-  <main >
+  <main>
     <h1>Busca de CEP </h1>
     <input type="text" placeholder="DIGITE O CEP"  onChange={(ev) => SetData(ev.target.value)} value={data}/>
     <button onClick={getCEP}>clicar</button>
