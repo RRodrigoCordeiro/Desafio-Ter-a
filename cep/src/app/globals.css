@@ -12,7 +12,7 @@
   --primaria-color: #007bff;
   --segundaria-color: #000000;
   --terciaria-color: rgb(240, 245, 255);
-  --quartenaria-color: #ffffff;
+  --quaternaria-color: #ffffff;
 }
 main {
   padding-top: 60px; 
@@ -83,7 +83,7 @@ button {
 }
 button:hover{
   cursor: pointer;
-  color: var(--quartenaria-color);
+  color: var(--quaternaria-color);
 }
 
 
